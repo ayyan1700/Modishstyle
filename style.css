@@ -384,7 +384,7 @@ span {
     height: 500px;
     border: 15px;
     box-shadow: 0px 1px 10px var(--primary);
-    background: url(/img/seven.avif), rgb(115, 114, 114);
+    background: url(img/seven.avif), rgb(115, 114, 114);
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-size: cover;
@@ -426,7 +426,7 @@ span {
     height: 500px;
     border: 15px;
     box-shadow: 0px 1px 10px var(--primary);
-    background: url(/img/eigth.avif), rgb(115, 114, 114);
+    background: url(img/eigth.avif), rgb(115, 114, 114);
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-size: cover;
@@ -440,7 +440,7 @@ span {
     height: 500px;
     border: 15px;
     box-shadow: 0px 1px 10px var(--primary);
-    background: url(/img/six.jpg), rgb(115, 114, 114);
+    background: url(img/six.jpg), rgb(115, 114, 114);
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-size: cover;
