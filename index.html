@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+    <div id="sidenav" class="sidenav">
+
+        <i id="out-nav" class="fa-solid fa-xmark"></i>
+
+        <div class="name">
+            <h1>Modish<span>Style</span></h1>
+        </div>
+
+        <div class="linking">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Contact</a>
+            <a href="">More</a>
+        </div>
+
+        <div class="fonts">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+
+        <h2>Welcome to our Best Modish <span>Style</span> shop!</h2>
+        <img src="/img/thimg-min.jpg">
+
+    </div>
+
+
+
+    <main>
+
+
+        <header id="navbar">
+
+            <div class="logo">
+                <h1>Modish <span>Style</span></h1>
+            </div>
+
+            <div class="link">
+                <a href="">Home</a>
+                <a href="">About</a>
+                <a href="">Contact</a>
+                <a href="">More</a>
+            </div>
+
+            <div class="social">
+                <i class="fa-solid fa-bag-shopping"></i>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+
+            <div class="navin">
+                <i id="in-nav" class="fa-solid fa-bars"></i>
+            </div>
+
+        </header>
+
+
+
+        <h1>Welcome to our Best Modish <span>Style</span> shop!</h1>
+
+        <p>Discover a world of fashion and trends at your fingertips.<br> At Modish-Style, we bring you the latest in
+            style, quality, and variety.</p>
+
+        <button>Shop Now</button>
+
+        <button>Check it</button>
+
+    </main>
+
+
+
+
+
+    <div class="searching">
+        <div class="box1">
+            <img src="/img/fourimg-min.jpg">
+        </div>
+        <div class="box2">
+            <img src="/img/fiveimg-min.jpg">
+        </div>
+        <div class="box3">
+            <h1>About our</h1>
+            <h2> Modish <span>Style</span> shop!</h2>
+            <p>We believe fashion should be inclusive, sustainable, <br>and designed to make you feel confident and
+                empowered.<br> From everyday essentials to show-stopping pieces,<br> we are here to elevate your style
+                with a collection that <br>fits your lifestyle.
+            </p>
+            <p>
+                customers: <span id="customers-count">0</span>
+                <i id="plus1" class="fa-solid fa-plus"></i> &nbsp;
+                orders: <span id="orders-count">0</span>
+                <i id="plus2" class="fa-solid fa-plus"></i> &nbsp;
+                online-orders: <span id="online-orders-count">0</span>
+                <i id="plus3" class="fa-solid fa-plus"></i>
+            </p>
+
+
+        </div>
+    </div>
+
+    <h1 class="heading">recent brands</h1>
+    <div class="cards">
+
+        <div class="card1">
+            <p> we are here to elevate your style
+                with a collection</p>
+            <button>shop Now</button>
+        </div>
+        <div class="card2">
+            <p> we are here to elevate your style
+                with a collection</p>
+            <button>shop Now</button>
+        </div>
+        <div class="card3">
+            <p> we are here to elevate your style
+                with a collection</p>
+            <button>shop Now</button>
+        </div>
+
+    </div>
+
+
+    <h1 class="heading">check the outfits</h1>
+
+
+    <div class="contain">
+        <div class="gallery-container">
+          <img src="img/1 (5)-min.jpg" alt="" class="galleryitem gallery-item1" data-index="1">
+          <img src="img/1 (2)-min.jpg" alt="" class="galleryitem gallery-item2" data-index="2">
+          <img src="img/2 (11)-min.jpg" alt="" class="galleryitem gallery-item3" data-index="3">
+          <img src="img/1 (4)-min.jpg" alt="" class="galleryitem gallery-item4" data-index="4">
+          <img src="img/2 (10)-min.jpg" alt="" class="galleryitem gallery-item5" data-index="5">
+        </div>
+       
+      </div>
+      <div class="gallery-controls">
+      </div>
+      
+      <h1 class="heading">search the girl or boy outfits</h1>
+      
+          <div class="filter">
+            <div class="filter-container">
+                <input type="text" id="searchInput" placeholder="Search..." onkeyup="filterSearch()">
+                <select id="categoryFilter" onchange="filterSearch()">
+                    <option value="">All Categories</option>
+                    <option value="Eastern">Eastern</option>
+                    <option value="Western">Western</option>
+                  
+                </select>
+            </div>
+        
+          </div>
+
+          <div class="card-container" id="cardContainer">
+            <!-- Cards will be inserted here dynamically -->
+        </div>
+    
+
+
+
+
+
+    <div class="footer">
+        <div class="content">
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima eius numquam placeat blanditiis odit animi ipit. Cumque eligendi voluptates, sapiente iure totam quos! Minus reiciendis nisi eligendi maxime.</p>
+        </div>
+       
+        <div class="fontsed">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
