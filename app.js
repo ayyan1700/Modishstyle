@@ -15,6 +15,7 @@ const cards = document.querySelector(".cards");
 const contain = document.querySelector(".contain");
 const filter = document.querySelector(".filter");
 const cardcontainer =  document.querySelector(".card-container");
+const gallerycontrols = document.querySelector(".gallery-controls");
 
 document.getElementById("in-nav").addEventListener("click", function () {
   nav.style.right = "0%";
@@ -25,6 +26,7 @@ document.getElementById("in-nav").addEventListener("click", function () {
   contain.style.pointerEvents = "none";
   filter.style.pointerEvents = "none";
   cardcontainer.style.pointerEvents = "none";
+  gallerycontrols.style.pointerEvents = "none";
 });
 
 document.getElementById("out-nav").addEventListener("click", function () {
@@ -36,10 +38,8 @@ document.getElementById("out-nav").addEventListener("click", function () {
   contain.style.pointerEvents = "auto";
   filter.style.pointerEvents = "auto";
   cardcontainer.style.pointerEvents = "auto";
-
+  gallerycontrols.style.pointerEvents = "auto";
 });
-
-
 
 function animateNumber(id, target, duration) {
     let start = 100;
