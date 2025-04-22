@@ -10,30 +10,32 @@ window.addEventListener('scroll', function () {
 
 const nav = document.getElementById("sidenav");
 const mainContent = document.querySelector("main");
-const search =  document.querySelector(".searching");
-const  cards =  document.querySelector(".cards");
-const  contain =  document.querySelector(".contain");
-const filter =  document.querySelector(".filter");
- 
-document.getElementById("in-nav").addEventListener("click", function () {
-    nav.style.right = "0%";
-    document.body.style.overflow = "hidden";
-    mainContent.style.pointerEvents = "none";
-    search.style.pointerEvents = "none";
-    cards.style.pointerEvents = "none";
-    contain.style.pointerEvents = "none";
-    filter.style.pointerEvents = "none";
+const search = document.querySelector(".searching");
+const cards = document.querySelector(".cards");
+const contain = document.querySelector(".contain");
+const filter = document.querySelector(".filter");
+const cardcontainer =  document.querySelector(".card-container");
 
+document.getElementById("in-nav").addEventListener("click", function () {
+  nav.style.right = "0%";
+  document.body.style.overflow = "hidden";
+  mainContent.style.pointerEvents = "none";
+  search.style.pointerEvents = "none";
+  cards.style.pointerEvents = "none";
+  contain.style.pointerEvents = "none";
+  filter.style.pointerEvents = "none";
+  cardcontainer.style.pointerEvents = "none";
 });
 
 document.getElementById("out-nav").addEventListener("click", function () {
-    nav.style.right = "-100%";
-    document.body.style.overflow = "auto";
-    mainContent.style.pointerEvents = "auto";
-    search.style.pointerEvents = "auto";
-    cards.style.pointerEvents = "auto";
-    contain.style.pointerEvents = "auto";
-    filter.style.pointerEvents = "auto";
+  nav.style.right = "-100%";
+  document.body.style.overflow = "auto";
+  mainContent.style.pointerEvents = "auto";
+  search.style.pointerEvents = "auto";
+  cards.style.pointerEvents = "auto";
+  contain.style.pointerEvents = "auto";
+  filter.style.pointerEvents = "auto";
+  cardcontainer.style.pointerEvents = "auto";
 
 });
 
